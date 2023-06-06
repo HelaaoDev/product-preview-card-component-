@@ -1,0 +1,91 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 10px;
+    box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+    overflow: hidden;
+    background: #fff;
+    color: #333;
+} 
+p {
+   font-size: 12px;
+   font-family: Montserrat;
+   margin-bottom: 15px;
+}
+h1 {
+    font-family: Fraunces;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.perfum {
+    position: absolute;
+    left: -10px;
+}
+.right {
+    position: absolute;
+    display: flex ;
+    flex-direction: column;
+    text-align: left;
+    padding-inline: 20px;
+    left: 270px;
+}
+.title {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 20px;
+    letter-spacing: 5px;
+}
+.m1 {
+    font-family: Fraunces;
+    font-size: 33px;
+    color: #458C6B;
+    margin-top: 12px;
+    margin-bottom: -10px;
+}
+.m2 {
+    position: absolute;
+    font-family: Montserrat;
+    text-decoration: line-through;
+    left: 155px;
+    top: 285px;
+    font-size: 12px;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.btnopt {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #458C6B;    
+}
+.cart {
+    margin-top: 15px;
+}
+.btn {
+    font-family: Montserrat;
+    font-size: 12px;
+    margin-top: 6px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-bottom: 7px;
+}
+.btnopt:hover {
+    cursor: pointer;
+    background-color: #213f30;
+}
+.attribution { 
+    margin-left: 5%;
+    margin-top: 36%;
+}
